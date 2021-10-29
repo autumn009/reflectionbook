@@ -4,9 +4,11 @@
     Console.WriteLine($"Found static class {item.FullName}");
     System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(item.TypeHandle);
 }
+A.sub();
 
 static class A
 {
+    public static void sub() => Console.WriteLine("Use of class A");
     static A() => Console.WriteLine("A initialized");
 }
 static class B
