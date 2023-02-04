@@ -5,7 +5,7 @@ foreach (var assem in AppDomain.CurrentDomain.GetAssemblies())
 {
     foreach (var type in assem.GetTypes())
     {
-        if (type.FullName.StartsWith("System.Reflection."))
+        if (type.FullName != null && type.FullName.StartsWith("System.Reflection."))
         {
             if (type.IsPublic)
             {
