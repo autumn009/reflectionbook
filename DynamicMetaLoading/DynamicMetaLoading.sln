@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33326.253
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicMetaLoading", "DynamicMetaLoading\DynamicMetaLoading.csproj", "{BABB5C57-206D-4430-9AD4-1FA8DEFE1335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{00B58706-51BE-4128-9217-0E4BF66DC362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABB5C57-206D-4430-9AD4-1FA8DEFE1335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABB5C57-206D-4430-9AD4-1FA8DEFE1335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABB5C57-206D-4430-9AD4-1FA8DEFE1335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABB5C57-206D-4430-9AD4-1FA8DEFE1335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B58706-51BE-4128-9217-0E4BF66DC362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B58706-51BE-4128-9217-0E4BF66DC362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B58706-51BE-4128-9217-0E4BF66DC362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B58706-51BE-4128-9217-0E4BF66DC362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1635171-79BD-4B71-AE48-1C50FAD61E2F}
+	EndGlobalSection
+EndGlobal
