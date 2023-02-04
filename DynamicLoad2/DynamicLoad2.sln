@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33326.253
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicLoading", "..\DynamicLoading\DynamicLoading\DynamicLoading.csproj", "{5207D66A-456D-4B40-B1C3-92303B5580A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{2436095B-13DD-48B3-A020-D68734E8A478}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5207D66A-456D-4B40-B1C3-92303B5580A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5207D66A-456D-4B40-B1C3-92303B5580A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5207D66A-456D-4B40-B1C3-92303B5580A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5207D66A-456D-4B40-B1C3-92303B5580A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2436095B-13DD-48B3-A020-D68734E8A478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2436095B-13DD-48B3-A020-D68734E8A478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2436095B-13DD-48B3-A020-D68734E8A478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2436095B-13DD-48B3-A020-D68734E8A478}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45B1D275-E1B7-4D52-82D7-D06E42CF5F4E}
+	EndGlobalSection
+EndGlobal
